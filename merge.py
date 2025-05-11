@@ -24,6 +24,6 @@ def merge(list_a, list_b):
     sorted_list.extend(list_b[y:])
     return sorted_list
 
-random_list = [i for i in range(200)]
+random_list = [i for i in range(20000)]
 random.shuffle(random_list)
 print(f'{merge_sort(random_list)[1]} second for {len(random_list)} elements')
